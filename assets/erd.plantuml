@@ -1,0 +1,50 @@
+@startuml erd
+
+entity "GO Term" as Term  {
+  + locus_id (PK)
+  --
+  #parents
+  --
+  name string
+}
+
+entity Gene  {
+  + id (PK)
+  --
+  descriptor string
+  start_at number
+  end_at number
+}
+
+entity "Gene Product" as GeneProduct {
+  + id (PK)
+  --
+  name
+}
+
+entity Annotation {
+  +id (PK)
+  --
+  #go_term (PK)
+  #gene_product (PK)
+  --
+  description string
+  reference string
+  --
+  # evidence code enum  
+    **Interresting terms:**
+    * ND - No Bio. Data Available
+  
+    EXP, IDA, IPI, IMP, IGI, 
+    IEP, HTP, HDA, HMP, HGI, 
+    HEP, IBA, IBD, IKR, IRD, 
+    ISS, ISO, ISA, ISM, IGC, 
+    RCA, TAS, NAS, IEA
+}
+
+Annotation }o-left- GeneProduct
+Term -left-o{ Annotation
+Term }o-left-o{ Term
+Gene }o-.- GeneProduct: "Through unknown\nbridge table"
+
+@enduml
