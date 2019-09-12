@@ -14,7 +14,9 @@ entity Ontology {
 }
 
 entity "GO Term" as Term {
-
+  GO Terms are a DAG so
+  they may have many
+  parents and many children
 }
 
 entity "Gene Product" as GeneProduct {
@@ -53,22 +55,25 @@ entity "Experimental Evidence" as Evidence{
   
 }
 
+entity Aspect {
+
+}
+
 Note "Identifies a Gene with a \npiece of research, a function, \na location, etc" as N1
-Note "GO Terms are a DAG so GO \nterms may have many \nparents and many children" as N2
 
 Ontology<-down-Term: Belongs To
 Term-up-Annotation: "Associates with \nGene Product"
-Term-left-GeneProduct: Is Annotated To
+Term "0 or more" -left- "1" GeneProduct: Is Annotated To
 Gene-right->GeneProduct: Encodes
 Annotation--GeneProduct: "Associates with \nGO Term"
 GeneProduct-->GeneFunction: Causes
-Slim---->Term: Chosen subset of
-Slim-->Annotation: Bins on (filter,query, etc)
-Annotation-right->ADS: Recorded in
+Slim-->Term: Chosen subset of
+Slim-left->Annotation: Bins on (filter,query, etc)
+Annotation-up->ADS: Recorded in
 Evidence-->Annotation: Backs up
 N1<..Annotation
 N1..>Gene
-N2<.right.Term
-N2..>Term
+' Term-->Term: Related to
+Aspect<-right-Term: "Is categorized by\none ane only one"
 
 @enduml

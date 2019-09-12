@@ -5,3 +5,7 @@
 ## Perliminary Domain Model
 
 ![model](./assets/domain_model.png)
+
+## Next Domain Model
+
+![model2](./assets/domain_model_2.png)
