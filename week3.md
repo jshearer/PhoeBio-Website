@@ -93,6 +93,12 @@ improve the process for the next sprint. At the retrospective, we'll call out
 especially positive outcomes such as large achievements by a team member, as
 well as point out shortcomings that happened during the sprint.
 
+## Preliminary Domain Model
+
+During week 3, our team started working on a first-pass domain model, shown below.
+
+![domain model](./assets/domain_model.svg)
+
 ## Timesheet
 
 ![timesheet-week3](./assets/timesheet-2019-09-09.png)
