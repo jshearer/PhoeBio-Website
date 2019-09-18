@@ -61,12 +61,12 @@ entity Aspect {
 
 Note "Identifies a Gene with a \npiece of research, a function, \na location, etc" as N1
 
-Ontology<-down-Term: Belongs To
-Term-up-Annotation: "Associates with \nGene Product"
-Term "0 or more" -left- "1" GeneProduct: Is Annotated To
+Ontology<-down-Term: Supports
+Annotation-down->Term: "Associates with \nGene Product"
+GeneProduct "1" -right-> "0 or more" Term: Is Annotated To
 Gene-right->GeneProduct: Encodes
-Annotation--GeneProduct: "Associates with \nGO Term"
-GeneProduct-->GeneFunction: Causes
+Annotation-->GeneProduct: "Associates with \nGO Term"
+GeneProduct "1" --> "1 or more" GeneFunction: Enables
 Slim-->Term: Chosen subset of
 Slim-left->Annotation: Bins on (filter,query, etc)
 Annotation-up->ADS: Recorded in
@@ -75,5 +75,20 @@ N1<..Annotation
 N1..>Gene
 ' Term-->Term: Related to
 Aspect<-right-Term: "Is categorized by\none ane only one"
+
+' Ontology<-down-Term: Supports
+' Annotation-down->Term: "Associates with \nGene Product""
+' Term "0 or more" <-left- "1" GeneProduct: Is Annotated To
+' Gene-right->GeneProduct: Encodes
+' Annotation-->GeneProduct: "Associates with \nGO Term"
+' GeneProduct "1" --> "1 or more" GeneFunction: Enables
+' Slim-->Term: Chosen subset of
+' Slim-left->Annotation: Bins on (filter,query, etc)
+' Annotation-up->ADS: Recorded in
+' Evidence-->Annotation: Backs up
+' N1<..Annotation
+' N1..>Gene
+' ' Term-->Term: Related to
+' Aspect<-right-Term: "Is categorized by\none ane only one"
 
 @enduml
