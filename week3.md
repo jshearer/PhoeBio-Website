@@ -5,9 +5,9 @@
 Our team has decided to work using the Scrum development methodology. The
 key actors in the Scrum process are:
 
-* Product Owner (Joseph Shearer)
+* Product Owner (Leonore Reiser)
 * Scrum Master (Nick Mosher)
-* Development Team (Everybody)
+* Development Team (Joseph Shearer, Tim Geary, Chike Udenze, Nick Mosher)
 
 The Product Owner is the person in charge of communicating with the customer,
 writing user stories, and prioritizing the user stories in the Product Backlog
