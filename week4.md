@@ -60,4 +60,11 @@ relevant to their area of research (by filtering for relevant GO terms),
 and identifying understudied areas of the genome by filtering by evidence
 code *ND*, for no data available.
 
+## Updated Domain Model
+
+After feedback and clarification from the sponsor, we've made some changes
+to the domain model.
+
+![domain-model-2](./assets/domain_model_2.png)
+
 ## Timesheet
