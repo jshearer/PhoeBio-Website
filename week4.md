@@ -17,7 +17,9 @@
         </ul>
         <li>Joseph Shearer</li>
         <ul>
-          <li></li>
+          <li>Wrote up the project synopsis.</li>
+          <li>Signed NDA.</li>
+          <li>Made, re-made, polished and validated domain model.</li>
         </ul>
         <li>Chike Udenze</li>
         <ul>
@@ -37,7 +39,8 @@
         </ul>
         <li>Joseph Shearer</li>
         <ul>
-          <li></li>
+          <li>Backend project spinup</li>
+          <li>Frontend project spinup</li>
         </ul>
         <li>Chike Udenze</li>
         <ul>
