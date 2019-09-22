@@ -138,3 +138,5 @@ to the domain model.
 ![domain-model-2](./assets/domain_model_2.png)
 
 ## Timesheet
+
+![timesheet-09-22](./assets/timesheet-2019-09-22.png)
