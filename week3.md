@@ -101,4 +101,4 @@ During week 3, our team started working on a first-pass domain model, shown belo
 
 ## Timesheet
 
-![timesheet-week3](./assets/timesheet-2019-09-05.png)
+![timesheet-week3](./assets/timesheet-week3.png)
