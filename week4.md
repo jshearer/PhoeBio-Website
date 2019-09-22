@@ -2,38 +2,93 @@
 
 ## Four-Up Status
 
-### What's been done since the last update?
-
-* Nick Mosher
-  * Updated the project website with week3 updates.
-  * Wrote up team process methodology.
-
-### What's currently in progress?
-
-* Nick Mosher
-  * Writing the week 4 project updates.
-
-### What do we need to accomplish our goals?
-
-* Github repositories for the frontend and backend to be
-  provisioned.
-* Cloud resources for deploying our solution. AWS has been
-  mentioned, is that being provided by the sponsor or will
-  we be expected to pay for resources out of pocket?
-
-### What are some risks we're facing?
-
-* The desired data visualization strategy is not strongly
-  defined. It seems we have some flexibility to "figure out
-  what will be useful", but there's a risk that since we're
-  not true domain experts we may have trouble identifying
-  a visualization technique that's actually useful.
-* This project seems like it is dealing with a sizeable
-  dataset, yet we've been constrained to using
-  Javascript/Typescript for the backend, languages which are
-  known not to have great performance characteristics. We
-  may experience latency in our application if the backend is
-  not able to process queries fast enough.
+<table>
+  <tr>
+    <th>What's been done since the last update?</th>
+    <th>What's currently in progress?</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>Nick Mosher</li>
+        <ul>
+          <li>Updated the project website with week 3 updates.</li>
+          <li>Wrote up the team process methodology.</li>
+        </ul>
+        <li>Joseph Shearer</li>
+        <ul>
+          <li></li>
+        </ul>
+        <li>Chike Udenze</li>
+        <ul>
+          <li></li>
+        </ul>
+        <li>Tim Geary</li>
+        <ul>
+          <li></li>
+        </ul>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Nick Mosher</li>
+        <ul>
+          <li>Writing the week 4 project updates.</li>
+        </ul>
+        <li>Joseph Shearer</li>
+        <ul>
+          <li></li>
+        </ul>
+        <li>Chike Udenze</li>
+        <ul>
+          <li></li>
+        </ul>
+        <li>Tim Geary</li>
+        <ul>
+          <li></li>
+        </ul>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>What do we need to accomplish our goals?</th>
+    <th>What are some risks we're facing?</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>
+          Github repositories for the frontend and backend to be
+          provisioned.
+        </li>
+        <li>
+          Cloud resources for deploying our solution. AWS has been
+          mentioned, is that being provided by the sponsor or will
+          we be expected to pay forthe resources out of pocket?
+        </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>
+          The desired data visualization strategy is not strongly
+          defined. It seems we have some flexibility to "figure out
+          what will be useful", but there's a risk that since we're
+          not true domain experts we may have trouble identifying
+          a visualization technique that's actually useful.
+        </li>
+        <li>
+          This project seems like it is dealing with a sizeable
+          dataset, yet we've been constrained to using
+          Javascript/Typescript for the backend, languages which are
+          known not to have great performance characteristics. We
+          may experience latency in our application if the backend is
+          not able to process queries fast enough.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## Project Synopsis
 
