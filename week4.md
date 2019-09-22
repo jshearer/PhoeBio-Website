@@ -39,7 +39,7 @@
         </ul>
         <li>Joseph Shearer</li>
         <ul>
-          <li>Backend project spinup</li>
+          <li>[Backend project](https://github.com/PhoeBio/Backend) spinup</li>
           <li>Frontend project spinup</li>
         </ul>
         <li>Chike Udenze</li>
