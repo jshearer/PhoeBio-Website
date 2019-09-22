@@ -60,6 +60,21 @@ relevant to their area of research (by filtering for relevant GO terms),
 and identifying understudied areas of the genome by filtering by evidence
 code *ND*, for no data available.
 
+## Metrics and Measurements
+
+*Story Points*: We are utilizing a scrum based points methodology to keep
+track of work done. Each task is assigned a point value by the team and
+these points are kept track of as related to the team member working on
+the task. These details will give substantial insight into team contribution.
+
+*Requirements Volatility*: Acceptance criteria changes elicit changes in
+requirements. We intend on keeping track of changing requirements before,
+during and after sprints. This metric will be represented as a percentage
+of the total sprint requirements that were changed come the end of the
+sprint. We believe this metric is important as it provides significant
+weekly insight into the status of sprint deliverables as well as feedback
+to improve the team’s definition of user stories.
+
 ## Updated Domain Model
 
 After feedback and clarification from the sponsor, we've made some changes
